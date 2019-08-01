@@ -45,7 +45,7 @@ Once your VPS is up and running and your eums wallet has synced, you then need t
 
 1. Open your eums Windows wallet.
 2. Click **Help** -> **Debug window** and then click on the **console** tab.
-3. Enter **getnewaddress MN1 masternode** and send exactly **7500** eums to this address.
+3. Enter **getnewaddress MN1 masternode** and send exactly **100000** eums to this address.
 4. **Please note this address must start with an X not a Z**. If you have a **Z** address read above step again.
 4. Go to back into the **console** tab and type **masternode outputs**
 5. Copy this to the same place your copied your **Masternode Private Key** earlier.
@@ -58,7 +58,7 @@ LABEL IP_ADDRESS:PORT MASTERNODE_PRIVATE_KEY MASTERNODE_OUTPUTS
 
 Example masternode.conf
 ```
-MN1 127.0.0.1:19655 5J35uXCcNFaQByrnK4YEFqCPQErJ8SzU7QPyjFg5atiC4BH3yqU 3d4011efd463f55cad9021899b8c7b06494e27ba0d186cc2de39d6d0d0ebbb4d 0
+MN1 127.0.0.1:55606 5J35uXCcNFaQByrnK4YEFqCPQErJ8SzU7QPyjFg5atiC4BH3yqU 3d4011efd463f55cad9021899b8c7b06494e27ba0d186cc2de39d6d0d0ebbb4d 0
 ```
 
 Restart your Windows wallet and go to the masternode tab. You should see your masternode sitting there with a status of **MISSING**.
