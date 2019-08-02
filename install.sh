@@ -65,6 +65,7 @@ sudo apt-get install libminiupnpc-dev -y
 sudo apt-get install libzmq3-dev -y
 sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler -y
 sudo apt-get install libqt4-dev libprotobuf-dev protobuf-compiler -y
+sudo apt-get install unzip 
 clear
 echo VPS dependencies are now installed.
 echo Creating and setting up VPS firewall...
@@ -78,13 +79,12 @@ echo "y" | sudo ufw enable
 sudo ufw status
 echo VPS firewall setup is completed.
 echo "Downloading eums Wallet (v2.0.4)..."
-wget https://github.com/eumsproject/eums-core/releases/download/1.1.4/eums-1.1.4-x86_64-linux-gnu.tar.gz
-tar -xvf eums-1.1.4-x86_64-linux-gnu.tar.gz
-chmod +x eums-1.1.4/bin/eumsd
-chmod +x eums-1.1.4/bin/eums-cli
-sudo cp eums-1.1.4/bin/eumsd /usr/bin/eumsd
-sudo cp eums-1.1.4/bin/eums-cli /usr/bin/eums-cli
-sudo rm -rf eums-1.1.4-x86_64-linux-gnu.tar.gz
+wget https://github.com/elitiumofficial/eums/releases/download/2.0.4/eums_ubuntu_daemon.zip
+unzip  eums_ubuntu_daemon.zip
+chmod a+x+w eumsd
+chmod a+x+w eums-cli
+sudo cp eumsd /usr/bin/eumsd
+sudo cp eums-cli /usr/bin/eums-cli
 echo eums Wallet successfully installed.
 clear
 echo Configuring eums Wallet configuration...
@@ -103,8 +103,8 @@ listen=1
 daemon=1
 staking=1
 rpcallowip=127.0.0.1
-rpcport=19656
-port=19655
+rpcport=55608
+port=55606
 logtimestamps=1
 maxconnections=256
 masternode=1
