@@ -10,7 +10,7 @@
 
 Please follow the below steps to generate a Masternode private key.
 
-1.  Download and install the latest eums wallet on Windows - https://github.com/eumsProject/eums-core/releases
+1.  Download and install the latest eums wallet on Windows - https://github.com/elitiumofficial/eums/releases
 2.  Open the wallet and go to **Help**->**Debug window** and then click on the **Console** tab.
 3.  In the console screen type and execute this command: **masternode genkey**  
 4.  Copy this to a blank text document as you will need this later.
@@ -23,7 +23,7 @@ If you do not have a VPS you can get one from here [Vultr.](https://www.vultr.co
 Once you have setup your VPS you need to download and run the install script using this command:
 
 ```
-cd && bash -c "$(wget -O - https://raw.githubusercontent.com/eumsProject/masternode-install/master/install.sh)"
+cd && bash -c "$(wget -O - https://raw.githubusercontent.com/elitiumofficial/eums-masternode-install-script/master/install.sh)"
 ```
 
 The installation script will give you 6 different options to choose from:
@@ -46,7 +46,7 @@ Once your VPS is up and running and your eums wallet has synced, you then need t
 1. Open your eums Windows wallet.
 2. Click **Help** -> **Debug window** and then click on the **console** tab.
 3. Enter **getnewaddress MN1 masternode** and send exactly **100000** eums to this address.
-4. **Please note this address must start with an X not a Z**. If you have a **Z** address read above step again.
+4. **Please note this address must start with an E.
 4. Go to back into the **console** tab and type **masternode outputs**
 5. Copy this to the same place your copied your **Masternode Private Key** earlier.
 6. Go to %appdata%\eums and create a file called **masternode.conf** and fill it with the following.
