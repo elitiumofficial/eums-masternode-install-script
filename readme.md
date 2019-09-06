@@ -10,7 +10,7 @@
 
 Please follow the below steps to generate a Masternode private key.
 
-1.  Download and install the latest eums wallet on Windows - https://github.com/elitiumofficial/eums/releases
+1.  Download and install the latest eums wallet on Windows/Linux - https://github.com/elitiumofficial/eums/releases
 2.  Open the wallet and go to **Help**->**Debug window** and then click on the **Console** tab.
 3.  In the console screen type and execute this command: **masternode genkey**  
 4.  Copy this to a blank text document as you will need this later.
