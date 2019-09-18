@@ -4,7 +4,6 @@
 
 
 # Ellitium Staking Masternode Setup Guide
-***
 
 ## Generating a Masternode Private Key
 
@@ -70,7 +69,8 @@ Click **Start all** and the status should change to **PRE_ENABLED**. After 15-30
 1. Log back into your VPS and type **eums-cli masternode status**
 2. If you see **Masternode successfully started** everything is setup correctly.
 3. Check the official block explorer to see if your masternode is listed - http://eums-explorer.elitium.io
-4. You are now finished and should start receiving rewards in the next **1 - 3 hours**. 
+4. You are now finished and should start receiving rewards in the next **1 - 3 hours**.<br>
+<br>
 
-
-More information at [elitium.io](https://www.elitium.io)
+<p align="center">For more information<br>
+https://www.elitium.io</p>
