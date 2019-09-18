@@ -71,3 +71,6 @@ Click **Start all** and the status should change to **PRE_ENABLED**. After 15-30
 2. If you see **Masternode successfully started** everything is setup correctly.
 3. Check the official block explorer to see if your masternode is listed - http://eums-explorer.elitium.io
 4. You are now finished and should start receiving rewards in the next **1 - 3 hours**. 
+
+
+More information at [elitium.io](https://www.elitium.io)
