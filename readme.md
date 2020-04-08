@@ -71,5 +71,8 @@ Click **Start all** and the status should change to **PRE_ENABLED**. After 15-30
 3. You are now finished and should start receiving rewards in the next **1 - 3 hours**.<br>
 <br>
 
+<br>
+<br>
+
 <p align="center">For more information<br>
 https://www.elitium.io</p>
